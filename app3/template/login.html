@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+</head>
+<body>
+    <div class="code">
+    <form action="" method="POST">
+        <table align="center" cellspacing="10px" cellpadding="10px">
+            <tr>
+                <td align="center">Student Login</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Username"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="class"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Division"></td>
+            </tr>
+            <tr>
+                <td align="center"><button><a href="/profile">Login</a></button></td>
+            </tr>
+        </table>
+    </form>
+</div>
+    
+</body>
+</html>
